@@ -1,0 +1,21 @@
+# Data folders
+data/
+raw/
+processed/
+
+# Model weights
+*.pt
+*.pth
+
+# Checkpoints
+checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
