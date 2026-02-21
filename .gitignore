@@ -6,6 +6,7 @@ processed/
 # Model weights
 *.pt
 *.pth
+*.pkl
 
 # Checkpoints
 checkpoints/
