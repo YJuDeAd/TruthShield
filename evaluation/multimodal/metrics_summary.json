@@ -1,0 +1,14 @@
+{
+  "threshold": 0.7,
+  "test_size_after_image_filter": 2664,
+  "skipped_missing_images": 0,
+  "metrics": {
+    "accuracy": 0.963963963963964,
+    "precision": 0.9840848806366048,
+    "recall": 0.9537275064267352,
+    "f1": 0.9686684073107049,
+    "roc_auc": 0.9911545386207344,
+    "average_precision": 0.9919172486036871
+  },
+  "classification_report": "              precision    recall  f1-score   support\n\n    Real (0)       0.94      0.98      0.96      1108\n    Fake (1)       0.98      0.95      0.97      1556\n\n    accuracy                           0.96      2664\n   macro avg       0.96      0.97      0.96      2664\nweighted avg       0.96      0.96      0.96      2664\n"
+}
