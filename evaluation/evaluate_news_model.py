@@ -121,14 +121,14 @@ def save_plots(y_true: np.ndarray, y_scores: np.ndarray, y_pred: np.ndarray, out
     plt.close(fig)
 
     # 4) Core-metrics bar chart.
-    fig, ax = plt.subplots(figsize=(7, 4))
+    fig, ax = plt.subplots(figsize=(8, 5.5))
     names = ["Accuracy", "Precision", "Recall", "F1"]
     values = [metrics["accuracy"], metrics["precision"], metrics["recall"], metrics["f1"]]
     bars = ax.bar(names, values)
-    ax.set_ylim(0, 1)
-    ax.set_title("Core Metrics - News Model")
+    ax.set_ylim(0, 1.15)
+    ax.set_title("Core Metrics - News Model", pad=20)
     for bar, value in zip(bars, values):
-        ax.text(bar.get_x() + bar.get_width() / 2, value + 0.02, f"{value:.3f}", ha="center")
+        ax.text(bar.get_x() + bar.get_width() / 2, value + 0.05, f"{value:.3f}", ha="center", va="bottom")
     fig.tight_layout()
     fig.savefig(Path(out_dir) / "metric_bar_chart.png", dpi=200)
     plt.close(fig)
