@@ -1,0 +1,13 @@
+{
+  "threshold": 0.7,
+  "test_size": 33991,
+  "metrics": {
+    "accuracy": 0.9927922097025683,
+    "precision": 0.998388420956609,
+    "recall": 0.9941863985950463,
+    "f1": 0.9962829790784823,
+    "roc_auc": 0.9922792969834726,
+    "average_precision": 0.9997143388430442
+  },
+  "classification_report": "              precision    recall  f1-score   support\n\n     Ham (0)       0.83      0.95      0.88       965\n    Spam (1)       1.00      0.99      1.00     33026\n\n    accuracy                           0.99     33991\n   macro avg       0.91      0.97      0.94     33991\nweighted avg       0.99      0.99      0.99     33991\n"
+}
