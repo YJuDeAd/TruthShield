@@ -11,6 +11,12 @@ processed/
 # Checkpoints
 checkpoints/
 
+# Database
+*.db
+
+# Environment variables
+*.env
+
 # Python cache
 __pycache__/
 *.pyc
