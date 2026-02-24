@@ -21,6 +21,21 @@ TruthShield is built as a unified detection framework where different models spe
 - **SMS/Phishing Detection** (binary: Ham vs Spam/Phishing)
 - **Multimodal Detection** (binary: Real vs Fake using text + image)
 
+## Dataset Sources
+
+### Messages
+- SMS Spam Collection Dataset: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+- Phishing URL/Email Dataset: https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset
+
+### News
+- FakeNewsNet: https://www.kaggle.com/datasets/mdepak/fakenewsnet
+- WELFake Dataset: https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
+
+### Social Media
+- Twitter 15/16: https://github.com/gszswork/Twitter15_16_dataset
+- FakeNewsNet: https://github.com/KaiDMML/FakeNewsNet
+- MediaEval (Image Verification Corpus): https://github.com/MKLab-ITI/image-verification-corpus
+
 ## Model Components
 
 ### 1) News Model
